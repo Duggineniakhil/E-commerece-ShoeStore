@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - DACStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html"><img src="DAC logo(1).png" width="125px" alt="Redstore Logo"></a>
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="subscription.html">Subscription</a></li>
+                        <li><a href="account.html" class="active">Account</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-icons">
+                    <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <button class="menu-toggle" onclick="menuToggle()"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Account Page Content -->
+    <main class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 image-col">
+                    <img src="image1.png" alt="Account Access" class="account-hero">
+                </div>
+                <div class="col-2 form-col">
+                    <div class="form-container">
+                        <div class="form-tabs">
+                            <button id="loginTab" class="active" onclick="switchForm('login')">Login</button>
+                            <button id="registerTab" onclick="switchForm('register')">Register</button>
+                            <div class="tab-indicator"></div>
+                        </div>
+                        
+                        <form id="loginForm" class="account-form active">
+                            <div class="form-group">
+                                <label for="loginUsername">Username or Email</label>
+                                <input type="text" id="loginUsername" placeholder="Enter your username or email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="loginPassword">Password</label>
+                                <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                            </div>
+                            <div class="form-options">
+                                <div class="remember-me">
+                                    <input type="checkbox" id="rememberMe">
+                                    <label for="rememberMe">Remember me</label>
+                                </div>
+                                <a href="#" id="forgotPasswordLink">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <div class="social-login">
+                                <p>Or login with</p>
+                                <div class="social-icons">
+                                    <a href="#" class="social-btn google"><i class="fab fa-google"></i></a>
+                                    <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                        
+                        <form id="registerForm" class="account-form">
+                            <div class="form-group">
+                                <label for="registerUsername">Username</label>
+                                <input type="text" id="registerUsername" placeholder="Choose a username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="registerEmail">Email</label>
+                                <input type="email" id="registerEmail" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="registerPassword">Password</label>
+                                <input type="password" id="registerPassword" placeholder="Create a password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="agreeTerms" required>
+                                <label for="agreeTerms">I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </form>
+                        
+                        <form id="forgotPasswordForm" class="account-form">
+                            <h3>Reset Password</h3>
+                            <div class="form-group">
+                                <label for="resetEmail">Email</label>
+                                <input type="email" id="resetEmail" placeholder="Enter your email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Reset Link</button>
+                            <button type="button" class="btn btn-secondary" onclick="switchForm('login')">Back to Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="png-transparent-google-play-logo-google-play-android-app-store-play-now-button-text-label-logo-Photoroom.png-Photoroom.png" alt="Google Play">
+                        <img src="png-transparent-app-store-apple-google-play-apple-text-logo-mobile-phones-Photoroom.png-Photoroom.png" alt="App Store">
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <img src="DAC logo(1).png" alt="Redstore Logo" class="footer-logo">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://x.com/DuggineniAkhil?t=jGKc8WnlgX-LJWivosVwTg&s=09"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.instagram.com/_akhil._chowdary_0?igsh=MTNkb25qMG9reXRudw=="><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2025 - Duggineni Akhil. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="account.js"></script>
+</body>
+</html>
