@@ -6,6 +6,8 @@ It includes a hero section with a motivational tagline, navigation links to Prod
 The purpose of this project is to practice front-end development and UI design by building a stylish and user-friendly landing page for a fictional shoe brand. 
 The site works well on desktop, tablet, and mobile devices and is created with clean and organized code for easy editing and future improvements.
 
+You can view the live website here: [Live Link](https://dacshoestore.netlify.app/)
+
 I also used a little bit of AI help for content ideas, layout suggestions, and to improve the writing in some parts. 
 The design and code are completely written by me, but I used AI as a tool to support and speed up the process.
 
