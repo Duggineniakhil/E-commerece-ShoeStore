@@ -339,48 +339,27 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- Portfolio: [yourportfolio.com](#)
-- GitHub: [@yourgithub](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](#)
-- Email: your.email@example.com
+**Akhil Duggineni**  
+B.Tech CSE @ Amrita Vishwa Vidyapeetham (Coimbatore)  
+Frontend Developer | MERN Learner | Video Editor  
+Skills: HTML, CSS, JavaScript, Python, Java, C/C++, MySQL, Git
+
+### 🔗 Connect  
+GitHub: https://github.com/Duggineniakhil  
+LinkedIn: *(Add Link Here)*  
+Email: akhilduggineni2006@gmail.com  
 
 ---
 
-## 🙏 Acknowledgments
-
-- Thanks to all the resources and tutorials that helped in building this project
-- Google Fonts for typography
-- FontAwesome for icons
-- All contributors and users who provided feedback
-
----
-
-## 📞 Support
-
-If you have any questions or need help, please:
-
-1. Check existing [Issues](../../issues)
-2. Create a new [Issue](../../issues/new) with detailed description
-3. Contact via email
-
----
-
-## 🌟 Show Your Support
-
-If you found this project helpful, please consider:
-
-- ⭐ Giving it a star on GitHub
-- 🔔 Watching the repository for updates
-- 📢 Sharing it with others
-- 💬 Providing feedback and suggestions
+## ⭐ Show Support
+- Star the repo ⭐
+- Share it 📢
+- Fork & contribute 🛠️
 
 ---
 
 <div align="center">
 
-**[⬆ Back to Top](#-dac-shoes---e-commerce-platform)**
-
-Made with ❤️ by [Your Name]
+Made with 💻 and consistency — by **Akhil Duggineni**
 
 </div>
