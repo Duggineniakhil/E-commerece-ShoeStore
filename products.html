@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse our premium footwear collection - Step up your style with DAC Shoes" />
+  <meta name="keywords" content="shoes, footwear, sneakers, fashion, DAC, products" />
+  <title>Products - DAC Shoes Collection</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Global styles (navbar, footer, etc.) -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Page-specific styles (product grid, cards, etc.) -->
+  <link rel="stylesheet" href="styleakhil.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container">
+      <div class="navbar-wrapper">
+        <nav class="navbar" aria-label="Main navigation">
+          <div class="navbar-logo">
+            <a href="home.html">
+              <img src="DAC logo(1).png" alt="DAC Shoes Logo" />
+            </a>
+          </div>
+
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+                        
+
+          <ul class="nav-menu">
+            <li><a href="home.html" class="nav-link">Home</a></li>
+            <li><a href="products.html" class="nav-link active">Products</a></li>
+            <li><a href="subscription.html" class="nav-link">Subscription</a></li>
+            <li><a href="account.html" class="nav-link">Account</a></li>
+          </ul>
+
+          <div class="navbar-cart">
+            <a href="cart.html" class="cart-link" aria-label="View cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-badge">0</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Toast notification -->
+  <div class="notification" id="product-notification">Added to cart</div>
+
+  <!-- Products Section -->
+  <main class="small-container">
+    <div class="row row-2">
+      <h2 class="title">All Products</h2>
+      <div class="sort-options">
+        <select id="sort-select">
+          <option value="default">Default sorting</option>
+          <option value="price-asc">Sort by price: Low to High</option>
+          <option value="price-desc">Sort by price: High to Low</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Row 1 -->
+    <div class="row products-grid" id="products-grid">
+      <div class="col-4" data-price="1895">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/r/t/e/-original-imagqfwbafhhtxgb.jpeg?q=90&crop=false" alt="Downshifter Sports Shoes" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <a href="products-details.html"><h4>Downshifter Sports Shoes</h4></a>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹1,895.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product1"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" data-price="799">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://img0.junaroad.com/uiproducts/20322918/zoom_0-1695368241.jpg" alt="Lace-Up Running Shoes" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Lace-Up Running Shoes</h4>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="price">₹799.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product2"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" data-price="2499">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230606/y7cU/647eb49042f9e729d727443f/-473Wx593H-466239908-beige-MODEL6.jpg" alt="Sneakers" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Sneakers</h4>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹2,499.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product3"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" data-price="1599">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/4/b/c/-original-imagg4kbpz6aefqf.jpeg?q=20&crop=false" alt="Oxford shoes" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Oxford shoes</h4>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹1,599.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product4"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="col-4" data-price="1299">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230725/CVPh/64bef8b4a9b42d15c96bcd7a/-473Wx593H-466384721-grey-MODEL.jpg" alt="Flat Heel Gray Shoes" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Flat Heel Gray Shoes</h4>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹1,299.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product5"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" data-price="899">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcj32k2XJKYHEbWmVUy6ywENRKTrss7xMLTw&s" alt="Loafers Men (Gray)" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Loafers Men (Gray)</h4>
+            <div class="rating">
+              <i class="far fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹899.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product6"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" data-price="1599">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPU4WqqFslIkXRBkhnL7dG1PcR6jTrEvxyBH2BcHP66vKzW-AVDus_YFa1pP7FydqoJY&usqp=CAU" alt="Lace-Up Running Shoes" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Lace-Up Running Shoes</h4>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹1,599.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product7"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" data-price="1199">
+        <div class="product-card">
+          <a href="products-details.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScegUwv8UMUKpzGQpsjH5Tw0R244e4hpQAEQ&s" alt="Lace-Fastening Black Shoes" loading="lazy" />
+          </a>
+          <div class="product-info">
+            <h4>Lace-Fastening Black Shoes</h4>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="price">₹1,199.00</p>
+            <div class="product-actions">
+              <button class="btn add-to-cart-btn" data-id="product8"><b>Add to cart</b></button>
+              <button class="btn quick-view">Quick View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="page-btn">
+      <span class="active">1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>&#8594;</span>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Get exclusive app-only deals and special discounts on all products.</p>
+          <div class="app-logo">
+            <img src="png-transparent-google-play-logo-google-play-android-app-store-play-now-button-text-label-logo-Photoroom.png-Photoroom.png" alt="Google Play Store" loading="lazy" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          
+          <p>Our purpose is to make premium footwear and everyday comfort accessible to everyone.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul class="social-links">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a href="https://x.com/DuggineniAkhil?t=jGKc8WnlgX-LJWivosVwTg&s=09"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.instagram.com/_akhil._chowdary_0?igsh=MTNkb25qMG9reXRudw=="><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">
+        &copy; 2025 - Duggineni Akhil. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const cartKey = "cart";
+      const cartBadge = document.querySelector(".cart-badge");
+      const notification = document.getElementById("product-notification");
+      const productsGrid = document.getElementById("products-grid");
+      const sortSelect = document.getElementById("sort-select");
+
+      function getCart() {
+        try {
+          return JSON.parse(localStorage.getItem(cartKey)) || [];
+        } catch {
+          return [];
+        }
+      }
+
+      function setCart(cart) {
+        localStorage.setItem(cartKey, JSON.stringify(cart));
+      }
+
+      function updateCartBadge() {
+        const cart = getCart();
+        const count = cart.reduce((acc, item) => acc + (item.quantity || 1), 0);
+        if (cartBadge) {
+          cartBadge.textContent = count;
+        }
+      }
+
+      function showNotification(message) {
+        if (!notification) return;
+        notification.textContent = message;
+        notification.classList.add("show");
+        setTimeout(() => notification.classList.remove("show"), 2500);
+      }
+
+      function addToCart(productId) {
+        if (!productId) return;
+        const cart = getCart();
+        const existing = cart.find((item) => item.id === productId);
+
+        if (existing) {
+          existing.quantity = (existing.quantity || 1) + 1;
+        } else {
+          cart.push({ id: productId, quantity: 1 });
+        }
+
+        setCart(cart);
+        updateCartBadge();
+        showNotification("Product added to cart");
+      }
+
+      // Event delegation for add-to-cart buttons
+      productsGrid.addEventListener("click", (e) => {
+        const btn = e.target.closest(".add-to-cart-btn");
+        if (!btn) return;
+        const id = btn.dataset.id;
+        addToCart(id);
+      });
+
+      // Sorting
+      sortSelect.addEventListener("change", () => {
+        const value = sortSelect.value;
+        const cards = Array.from(productsGrid.querySelectorAll(".col-4"));
+
+        if (value === "default") {
+          // basic: do nothing (or could reset if you store original order)
+          return;
+        }
+
+        cards.sort((a, b) => {
+          const priceA = parseFloat(a.dataset.price || "0");
+          const priceB = parseFloat(b.dataset.price || "0");
+          if (value === "price-asc") return priceA - priceB;
+          if (value === "price-desc") return priceB - priceA;
+          return 0;
+        });
+
+        cards.forEach((card) => productsGrid.appendChild(card));
+      });
+
+      // Initial
+      updateCartBadge();
+    });
+  </script>
+
+</body>
+</html>
