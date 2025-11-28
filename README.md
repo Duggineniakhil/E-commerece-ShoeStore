@@ -306,12 +306,10 @@ This project demonstrates proficiency in:
 
 **Akhil Duggineni**  
 B.Tech CSE @ Amrita Vishwa Vidyapeetham (Coimbatore)  
-Frontend Developer | MERN Learner | Video Editor  
-Skills: HTML, CSS, JavaScript, Python, Java, C/C++, MySQL, Git
 
 ### 🔗 Connect  
 GitHub: https://github.com/Duggineniakhil  
-LinkedIn: [*(Add Link Here)*  ](https://www.linkedin.com/m/in/akhil-duggineni-b29a0529b/)
+LinkedIn:[https://www.linkedin.com/m/in/akhil-duggineni-b29a0529b](https://www.linkedin.com/in/akhil-duggineni-b29a0529b/)
 Email: duggineniakhil15@gmail.com
 
 ---
