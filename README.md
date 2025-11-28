@@ -5,11 +5,11 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
 
 A modern, responsive e-commerce website for premium shoe retail featuring dynamic product browsing, shopping cart management, and seamless checkout experience.
 
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
+[[Live Demo](#)](https://dacshoestore.netlify.app/home)
 
 </div>
 
@@ -260,28 +260,6 @@ E-commerce-ShoeStore-main/
 
 ---
 
-## 🔮 Future Enhancements
-
-### Planned Features
-- [ ] Dark mode and light mode theme toggle
-- [ ] Advanced product search and filtering
-- [ ] User reviews and ratings system
-- [ ] Wishlist functionality
-- [ ] Compare products feature
-- [ ] Social media sharing
-- [ ] Real-time inventory management
-- [ ] Payment gateway integration (Stripe, PayPal)
-- [ ] Email notifications
-- [ ] Analytics and tracking
-
-### Backend Integration
-- [ ] Node.js/Express backend
-- [ ] MongoDB database
-- [ ] User authentication (JWT)
-- [ ] Order management system
-- [ ] Inventory management
-
----
 
 ## 🤝 Contributing
 
@@ -292,13 +270,6 @@ Contributions are welcome! Here's how you can help:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-### Code Style Guidelines
-- Use meaningful variable and function names
-- Write comments for complex logic
-- Follow consistent indentation (2 spaces)
-- Keep functions small and focused
-- Use semantic HTML elements
 
 ---
 
@@ -331,12 +302,6 @@ This project demonstrates proficiency in:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👤 Author
 
 **Akhil Duggineni**  
@@ -346,8 +311,8 @@ Skills: HTML, CSS, JavaScript, Python, Java, C/C++, MySQL, Git
 
 ### 🔗 Connect  
 GitHub: https://github.com/Duggineniakhil  
-LinkedIn: *(Add Link Here)*  
-Email: akhilduggineni2006@gmail.com  
+LinkedIn: [*(Add Link Here)*  ](https://www.linkedin.com/m/in/akhil-duggineni-b29a0529b/)
+Email: duggineniakhil15@gmail.com
 
 ---
 
